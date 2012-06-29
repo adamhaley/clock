@@ -1,0 +1,1 @@
+First version of the clock uses all css3 and no js.. Limitations of using css3 transforms/transitions is this clock will only run for 12 hours and starts from all hands at 12 o clock, doesn't get the current time.
