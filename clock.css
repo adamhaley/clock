@@ -16,6 +16,7 @@
   /*720 * 360*/
 
   -webkit-transform-origin: bottom center;
+  -webkit-transition-timing-function: steps(43200);
 }
 #clock-face.complete #minute-hand {
   -webkit-transform: rotate(4320deg);
@@ -44,8 +45,8 @@
   position: absolute;
   background-color: #000;
   width: 6px;
-  height: 180px;
-  top: 20px;
+  height: 160px;
+  top: 40px;
   left: 200px;
   -webkit-transition: -webkit-transform 43200s linear;
 }
